@@ -1,0 +1,222 @@
+/* Estilos para pantallas menores a 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Header */
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+        margin-bottom: -20px;
+        color: white;
+    }
+    
+    .mobile-menu.active {
+        display: block;
+        margin-top: -20px;
+    }
+    
+    /* Hero Section */
+    .hero-section {
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
+    .hero-content {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .hero-content {
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    .hero-subtitle {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+    
+    .hero-features {
+        justify-content: center;
+    }
+    
+    .hero-image {
+        min-width: auto;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .experience-badge {
+        right: 20px;
+    }
+    
+    /* Features */
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Services */
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* CTA Buttons */
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*auth*/
+    .auth-container {
+        margin: 20px;
+    }
+    
+    .auth-form-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .auth-form-group {
+        min-width: 100%; /* En móviles ocupa todo el ancho */
+    }
+
+    .auth-header {
+        padding: 20px;
+    }
+    
+    .auth-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .auth-main {
+        padding: 20px;
+    }
+
+    /*profile*/
+    .profile-menu {
+        margin-left: 0;
+        height: auto;
+    }
+    
+    .profile-link span {
+        display: inline; /* Mostrar el texto en móvil */
+    }
+    
+    .profile-dropdown {
+        position: static;
+        box-shadow: none;
+        display: none;
+        opacity: 1;
+        transform: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .mobile-menu .profile-dropdown {
+        display: block;
+        background-color: rgba(0,0,0,0.05);
+        border-radius: 5px;
+        padding: 5px 0;
+    }
+    
+    .mobile-menu .profile-dropdown a {
+        padding: 8px 15px;
+    }
+    
+    .mobile-menu ul li {
+        margin-bottom: 10px;
+        padding: 5px 0;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .profile-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .avatar-upload {
+        right: calc(50% - 75px);
+        bottom: -15px;
+    }
+    
+    /* Footer */
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .legal-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /*modal*/
+    .modal-content {
+        margin: 20% auto;
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .modal {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch; /* Para un mejor scroll en iOS */
+    }
+    
+    .login-options .btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
+    
+    .modal-logo .logo {
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        margin: 10% auto;
+        padding: 15px;
+    }
+    
+    .close-modal {
+        right: 15px;
+        top: 10px;
+        font-size: 1.3rem;
+    }
+}

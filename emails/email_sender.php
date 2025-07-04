@@ -12,8 +12,8 @@ class EmailSender {
     private $fromEmail = 'no-repply@vexo.com.ar'; // Corregido el dominio
     private $fromName = 'Vexo';
     private $smtpHost = 'smtp.hostinger.com';
-    private $smtpUsername = 'no-repply@vexo.com.ar';
-    private $smtpPassword = 'Vexo2025-';
+    private $smtpUsername = '';
+    private $smtpPassword = '';
     private $smtpPort = 587;
     private $smtpSecure = 'tls';
     
